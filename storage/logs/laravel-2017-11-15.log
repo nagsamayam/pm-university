@@ -1,0 +1,1104 @@
+[2017-11-15 00:01:08] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/3gRRQbcqROh3HsMsc2y9levhD3MOKR1XrlJd1wqF): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/3gRRQbcqROh3HsMsc2y9levhD3MOKR1XrlJd1wqF): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('3gRRQbcqROh3HsM...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 00:07:11] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/3gRRQbcqROh3HsMsc2y9levhD3MOKR1XrlJd1wqF): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/3gRRQbcqROh3HsMsc2y9levhD3MOKR1XrlJd1wqF): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('3gRRQbcqROh3HsM...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 00:07:40] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/3gRRQbcqROh3HsMsc2y9levhD3MOKR1XrlJd1wqF): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/3gRRQbcqROh3HsMsc2y9levhD3MOKR1XrlJd1wqF): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('3gRRQbcqROh3HsM...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 00:59:24] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/RFs3o0yiu0YyMRLUNdlCfoxNVhfYZnp1Ammrdghj): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/RFs3o0yiu0YyMRLUNdlCfoxNVhfYZnp1Ammrdghj): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('RFs3o0yiu0YyMRL...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 02:21:31] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/0y56kzijZzTrffiz6I1yVFpEEjznG1kZYpwPY2v0): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/0y56kzijZzTrffiz6I1yVFpEEjznG1kZYpwPY2v0): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('0y56kzijZzTrffi...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 06:28:50] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/ME0Gdw0JHeJLHmi4FgLlRAeLTRMK7plTNUmMIODR): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/ME0Gdw0JHeJLHmi4FgLlRAeLTRMK7plTNUmMIODR): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('ME0Gdw0JHeJLHmi...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 06:28:59] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/9eLL6VVQ1sDVKOLc6AQs9rgBe1WNaXdvYfcDQYtq): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/9eLL6VVQ1sDVKOLc6AQs9rgBe1WNaXdvYfcDQYtq): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('9eLL6VVQ1sDVKOL...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 06:38:19] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/uOjSogXhhVyp52YKp7B2XYEMM0cUP0o3awPaqiRM): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/uOjSogXhhVyp52YKp7B2XYEMM0cUP0o3awPaqiRM): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('uOjSogXhhVyp52Y...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 07:41:32] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/YKpt4UBYO7eUqmImtItIoNvjyfIlhFJZYkMgmziL): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/YKpt4UBYO7eUqmImtItIoNvjyfIlhFJZYkMgmziL): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('YKpt4UBYO7eUqmI...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 08:24:56] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/oYquxXjfBvpqabqd4P4THYtKkeyVZqTZobNydlBg): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/oYquxXjfBvpqabqd4P4THYtKkeyVZqTZobNydlBg): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('oYquxXjfBvpqabq...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 09:01:10] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/NI5kb1XW06LliuI8KQZIkssjhvXeuUjnVq9a8OFX): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/NI5kb1XW06LliuI8KQZIkssjhvXeuUjnVq9a8OFX): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('NI5kb1XW06LliuI...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 09:01:27] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/f0vOqWez7LtnbTr322TBQMCuhhzTroc80aiphnAP): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/f0vOqWez7LtnbTr322TBQMCuhhzTroc80aiphnAP): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('f0vOqWez7LtnbTr...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 10:59:29] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/SmLd5nkU99PfoMCloMbWY0swnqZtyDQTesXl7NPW): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/SmLd5nkU99PfoMCloMbWY0swnqZtyDQTesXl7NPW): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('SmLd5nkU99PfoMC...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 11:00:39] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/SmLd5nkU99PfoMCloMbWY0swnqZtyDQTesXl7NPW): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/SmLd5nkU99PfoMCloMbWY0swnqZtyDQTesXl7NPW): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('SmLd5nkU99PfoMC...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 11:00:47] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/SmLd5nkU99PfoMCloMbWY0swnqZtyDQTesXl7NPW): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/SmLd5nkU99PfoMCloMbWY0swnqZtyDQTesXl7NPW): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('SmLd5nkU99PfoMC...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 11:41:33] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/SmLd5nkU99PfoMCloMbWY0swnqZtyDQTesXl7NPW): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/SmLd5nkU99PfoMCloMbWY0swnqZtyDQTesXl7NPW): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('SmLd5nkU99PfoMC...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:17:21] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:21:21] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:21:55] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:22:38] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:22:58] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:23:41] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:26:18] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:29:17] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:29:25] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:29:41] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:30:20] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:30:29] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:39:23] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:40:49] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:44:53] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:51:12] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:52:22] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:52:23] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:52:23] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:52:23] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:52:23] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:52:23] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:52:23] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:52:26] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:53:21] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:54:48] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:54:48] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:54:48] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:54:48] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:54:48] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:54:48] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:54:48] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:54:53] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:54:53] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:54:53] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:54:53] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:54:53] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:54:53] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:54:53] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:54:54] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/DgJjcl3wN9dLdqBtgUZMyGJswITxIUn7VXv3t2Dj): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/DgJjcl3wN9dLdqBtgUZMyGJswITxIUn7VXv3t2Dj): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('DgJjcl3wN9dLdqB...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:54:55] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:54:59] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:54:59] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:54:59] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:54:59] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:54:59] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:54:59] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:54:59] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:55:03] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:55:21] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:55:24] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:55:24] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:55:24] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:55:24] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:55:24] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:55:24] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:55:24] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:55:32] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:55:37] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:55:37] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:55:37] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:55:37] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:55:37] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:55:37] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:55:37] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:55:40] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/IDX9u3q5TdjPaOIsILFebfaJRWnmJnHRltpGBZKU): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/IDX9u3q5TdjPaOIsILFebfaJRWnmJnHRltpGBZKU): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('IDX9u3q5TdjPaOI...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:55:45] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2017-11-15 18:55:56] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:4:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:4:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:4:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\RedirectResponse))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\RedirectResponse))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\RedirectResponse))
+#8 {main}
+"} 
+[2017-11-15 18:55:56] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:55:58] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:56:06] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:56:09] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:56:10] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/0LFgMR8KDpzhJxnBj6g0Wescy6OOXvniQJRKVPgi): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/0LFgMR8KDpzhJxnBj6g0Wescy6OOXvniQJRKVPgi): failed to open stream: No such file or directory at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('0LFgMR8KDpzhJxn...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:58:09] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: Permission denied {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: Permission denied at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:58:11] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: Permission denied {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: Permission denied at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:3:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:3:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:3:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2017-11-15 18:58:13] production.ERROR: file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: Permission denied {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/pmu/storage/framework/sessions/fW1du885dRttEXslmpKPBWPKkrC3o115pQobb1R5): failed to open stream: Permission denied at /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/p...', 122, Array)
+#1 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/var/www/html/p...', 'a:2:{s:6:\"_toke...', 2)
+#2 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/p...', 'a:2:{s:6:\"_toke...', true)
+#3 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fW1du885dRttEXs...', 'a:2:{s:6:\"_toke...')
+#4 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /var/www/html/pmu/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /var/www/html/pmu/public/index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
