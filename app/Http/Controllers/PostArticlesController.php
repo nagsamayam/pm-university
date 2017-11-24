@@ -11,7 +11,7 @@ class PostArticlesController extends AjaxController
     {
         $type = request('type', 'latest');
         $articles = $this->getArticles($id, $type);
-        if (($type === 'top-10' && request('page') > 1) or $articles->total() === 0) {
+        if (($type === 'top-10' && request('page') > 2) or $articles->total() === 0) {
             return $this->respondNotFound('No records found');
         }
 

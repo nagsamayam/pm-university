@@ -178,7 +178,26 @@
     <script>
         $(document).ready(function () {
             $('.chosen-select').chosen({width: "100%"});
-            $('#description').summernote();
+            $('#description').summernote({
+                height: 250,
+                toolbar: [
+                    ["style", ["style"]],
+                    ["font", ["bold", "underline", "clear"]],
+                    ["fontname", ["fontname"]],
+                    ["color", ["color"]],
+                    ['fontsize', ['fontsize']],
+                    ['para', ['ul', 'ol', 'paragraph']],
+                    ["table", ["table"]],
+                    ["insert", ["link", "picture", "video"]],
+                    ['height', ['height']],
+                    ['view', ['fullscreen', 'codeview', 'help']],
+                ],
+                fontNames: [
+                    'Arial', 'Arial Black', 'Comic Sans MS', 'Courier New',
+                    'Helvetica Neue', 'Helvetica', 'Impact', 'Lucida Grande', 'Open Sans',
+                    'Tahoma', 'Times New Roman', 'Verdana'
+                ],
+            });
         });
     </script>
 @endsection

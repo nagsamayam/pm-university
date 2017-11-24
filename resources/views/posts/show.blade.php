@@ -79,6 +79,22 @@
         </tab>
     </tabs>
     <!--//Category Tabs-->
+    <!--Special Section-->
+    <section class="special-section">
+        <div class="container">
+            <div class="special-article" id="special-article">
+                <span style="display: none;">{{ $post->id }}</span>
+
+                <h2>{{$post->note_title}}</h2>
+
+                <p>{!! $post->note_description !!}</p>
+            </div>
+            <div class="text-center">
+                <a class="read-more" href="#">Read more</a>
+            </div>
+        </div>
+    </section>
+    <!--//Special Section-->
     <!--Next Previous Section-->
     <section class="next-previous-section">
         <div class="container">

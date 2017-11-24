@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Storage;
 use Carbon\Carbon;
 use App\Filters\ArticleFilters;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -69,6 +70,11 @@ class Article extends BaseModel
         return array_merge(
             ['id', 'title', 'description', 'source_url', 'picture', 'video_url', 'published_at'],
             $overrides);
+    }
+
+    public function imageUrl()
+    {
+        return $this->picture ? Storage::disk('public')->url("$this->picture") : '';
     }
 
     public function videoUrl(): string
