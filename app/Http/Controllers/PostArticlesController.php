@@ -29,7 +29,7 @@ class PostArticlesController extends AjaxController
         $perPage = (int) request('perPage', 5);
 
         return $post->articles()
-            ->orderBy('sequence', 'desc')
+            ->orderBy('sequence', 'asc')
             ->where('type', $type)
             ->paginate($perPage, Article::defaultAttributes());
     }
