@@ -125,3 +125,17 @@ if (! function_exists('me')) {
         return auth()->user();
     }
 }
+
+if (!function_exists('git_production_branch')) {
+    function git_production_branch()
+    {
+        return config('remote.connections.production.git_branch');
+    }
+}
+
+if (!function_exists('is_production')) {
+    function is_production()
+    {
+        return app()->environment() === 'production';
+    }
+}
