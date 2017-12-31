@@ -47,7 +47,7 @@ class Post extends BaseModel
 
     public function scopeType($query, $type)
     {
-        return $query->latest()->where('type', $type);
+        return $query->where('type', $type);
     }
 
     /**

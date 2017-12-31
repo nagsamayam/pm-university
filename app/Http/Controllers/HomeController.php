@@ -10,10 +10,17 @@ class HomeController extends Controller
     public function __invoke()
     {
         $postsAttributes = Post::defaultAttributes();
-        $bachelorePosts = Post::published()->type(Post::BACHELORE)->get($postsAttributes);
-        $masterPosts = Post::published()->type(Post::MASTER)->get($postsAttributes);
+        $bachelorePosts = Post::published()
+            ->type(Post::BACHELORE)
+            ->recent()
+            ->get($postsAttributes);
+        $masterPosts = Post::published()
+            ->type(Post::MASTER)
+            ->recent()
+            ->get($postsAttributes);
         $specializationPosts = Post::published()
             ->type(Post::SPECIALIZATION)
+            ->recent()
             ->get($postsAttributes);
         $placements = Post::published()
             ->type(Post::PLACEMENTS)
