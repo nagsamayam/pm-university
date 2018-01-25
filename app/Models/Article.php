@@ -68,7 +68,8 @@ class Article extends BaseModel
     public static function defaultAttributes($overrides = [])
     {
         return array_merge(
-            ['id', 'title', 'description', 'source_url', 'picture', 'video_url', 'published_at'],
+            ['id', 'title', 'description', 'source_url', 'picture', 'video_url', 'published_at',
+            'author_name', 'author_organization', 'author_designation', 'author_location'],
             $overrides);
     }
 
