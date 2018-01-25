@@ -37,6 +37,7 @@ return [
             'keyphrase' => '',
             'agent'     => '',
             'timeout'   => 10,
+            'git_branch' => env('REMOTE_PRODUCTION_GIT_BRANCH', 'master'),
         ],
     ],
 
