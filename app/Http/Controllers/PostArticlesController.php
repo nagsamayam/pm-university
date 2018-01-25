@@ -26,7 +26,7 @@ class PostArticlesController extends AjaxController
     public function getArticles($postId, $type)
     {
         $post = Post::find($postId);
-        $perPage = (int) request('perPage', 5);
+        $perPage = (int) request('perPage', 10);
 
         return $post->articles()
             ->orderBy('sequence', 'asc')

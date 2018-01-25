@@ -60,6 +60,23 @@ Vue.component('tab', {
     <div class="media">
     <div class="media-body">
     <h2><a :href="article.source_url" target="_blank">{{ article.title }}</a></h2>
+    <ul v-if="article.author_name">
+        <li>
+            {{ article.author_name}}
+        </li>
+        <li v-if="article.author_designation">
+            <li v-if="article.author_designation"><span class="dot"></span></li>
+            {{ article.author_designation }}
+        </li>
+        <li v-if="article.author_organization">
+            <li v-if="article.author_organization"><span class="dot"></span></li>
+            {{ article.author_organization }}
+        </li>
+        <li v-if="article.author_location">
+            <li v-if="article.author_location"><span class="dot"></span></li>
+            {{ article.author_location }}
+        </li>
+    </ul>
 <div v-if="article.picture" class="image-box"><img :src="article.picture" />
     </div>
     <p v-html="article.description">...</p>
