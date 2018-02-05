@@ -93,7 +93,11 @@
 
                                                 <div class="col-sm-8">
                                                     @if($article->imageUrl())
-                                                        <img src="{{ $article->imageUrl() }}"><br/> <br/>
+                                                        <img id="article_picture" src="{{ $article->imageUrl() }}"><br/>
+                                                        <br/>
+                                                        <button type="button" id="remove_picture">Remove Image</button>
+                                                        <br/>
+                                                        <br/>
                                                     @endif
                                                     <input type="file" class="form-control" name="picture">
                                                 </div>
@@ -205,6 +209,22 @@
                     'Helvetica Neue', 'Helvetica', 'Impact', 'Lucida Grande', 'Open Sans',
                     'Tahoma', 'Times New Roman', 'Verdana'
                 ],
+            });
+            $("#remove_picture").click(function () {
+                var articleId = "<?php echo $article->id; ?>";
+                var _token = $('meta[name="csrf-token"]').attr('content');
+                if (confirm("Are you sure want to delete picture?")) {
+                    $.ajax({
+                        type: "POST",
+                        url: '/admin/article/' + articleId + '/picture',
+                        data: {_token: _token},
+                        success: function (msg) {
+                            console.log(msg);
+                        }
+                    });
+                    $("#article_picture").remove();
+                    $("#remove_picture").remove();
+                }
             });
         });
     </script>

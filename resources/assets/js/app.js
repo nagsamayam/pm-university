@@ -129,7 +129,7 @@ methods: {
      * Get articles.
      */
     getArticles() {
-        const postId = $("#special-article span").text()
+        const postId = $("#id_post_id").val();
         const articleType = this.name.toLowerCase().replace(/ /g, '-')
         axios.get('/posts/' + postId + '/articles', {params:  {type: articleType}} )
             .then(response => {
@@ -146,7 +146,7 @@ methods: {
  */
 loadMoreArticles() {
     this.page += 1
-    const postId = $("#special-article span").text()
+    const postId = $("#id_post_id").val();
     console.log(postId)
     axios.get('/posts/' + postId + '/articles', {params:  {type: this.name.toLowerCase().replace(/ /g, '-'), page: this.page}} )
         .then(response => {

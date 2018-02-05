@@ -83,10 +83,8 @@
     <section class="special-section">
         <div class="container">
             <div class="special-article" id="special-article">
-                <span style="display: none;">{{ $post->id }}</span>
-
+                <input type="hidden" value="{{ $post->id }}" id="id_post_id" />
                 <h2>{{$post->note_title}}</h2>
-
                 <p>{!! $post->note_description !!}</p>
             </div>
             <div class="text-center">

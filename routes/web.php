@@ -50,6 +50,7 @@ Route::middleware('auth')->prefix('admin')->namespace('Admin')->group(function (
     // Articles - bulk delete, publish
     Route::post('/articles/bulk-actions', 'PostArticlesController@bulkAction')
         ->name('posts.articles.actions');
+    Route::post('/article/{id}/picture', 'ArticlePictures@destroy');
 });
 
 // Home page
