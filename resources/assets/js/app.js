@@ -30,7 +30,6 @@ Vue.component('tabs', {
 <div class="tabs-details">
     <slot></slot>
     </div>
-    </div>
 `,
 data() {
     return {
@@ -92,7 +91,6 @@ Vue.component('tab', {
 <div v-if="errorMessage" class="show-more">{{ errorMessage }}
 </div>
 </div>
-</div>
 </section>
 </div>
 `,
@@ -135,9 +133,13 @@ methods: {
             .then(response => {
             const responseData = response.data;
         this.articles = responseData.data
+		if(articleType == 'top-10') {
+			responseData.meta.paginator.hasMore = false
+		}
         this.hasMoreArticles = responseData.meta.paginator.hasMore
     })
     .catch(e => {
+		this.hasMoreArticles = false
         this.errorMessage = "No records found"
     })
 },
@@ -147,7 +149,6 @@ methods: {
 loadMoreArticles() {
     this.page += 1
     const postId = $("#id_post_id").val();
-    console.log(postId)
     axios.get('/posts/' + postId + '/articles', {params:  {type: this.name.toLowerCase().replace(/ /g, '-'), page: this.page}} )
         .then(response => {
             const responseData = response.data;
@@ -159,6 +160,7 @@ loadMoreArticles() {
                 this.errorMessage = "No records found"
             }
         }).catch(e => {
+			this.hasMoreArticles = false
             this.errorMessage = "No records found"
         })
     },

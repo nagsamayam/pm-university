@@ -65,33 +65,46 @@
 
     <!--Category Tabs-->
     <tabs>
-        <tab name="TOP 10" :selected="true">
-        </tab>
-        <tab name="LATEST">
-        </tab>
-        <tab name="VIDEOS">
-        </tab>
-        <tab name="BOOKS">
-        </tab>
-        <tab name="INTERVIEWS">
-        </tab>
-        <tab name="TOOLS">
-        </tab>
+        @if($post->stats()->topTenArticles())
+            <tab name="TOP 10" :selected="true">
+            </tab>
+        @endif
+        @if($post->stats()->latestArticles())
+            <tab name="LATEST">
+            </tab>
+        @endif
+        @if($post->stats()->videosArticles())
+            <tab name="VIDEOS">
+            </tab>
+        @endif
+        @if($post->stats()->booksArticles())
+            <tab name="BOOKS">
+            </tab>
+        @endif
+        @if($post->stats()->interviewsArticles())
+            <tab name="INTERVIEWS">
+            </tab>
+        @endif
+        @if($post->stats()->toolsArticles())
+            <tab name="TOOLS">
+            </tab>
+        @endif
     </tabs>
     <!--//Category Tabs-->
     <!--Special Section-->
-    <section class="special-section">
-        <div class="container">
-            <div class="special-article" id="special-article">
-                <input type="hidden" value="{{ $post->id }}" id="id_post_id" />
-                <h2>{{$post->note_title}}</h2>
-                <p>{!! $post->note_description !!}</p>
-            </div>
-            <div class="text-center">
-                <a class="read-more" href="#">Read more</a>
-            </div>
-        </div>
-    </section>
+	<input type="hidden" value="{{ $post->id }}" id="id_post_id"/>
+	@if($post->note_title)
+		<section class="special-section">
+			<div class="container">
+				<div class="special-article" id="special-article">               
+
+					<h2>{{$post->note_title}}</h2>
+
+					<p>{!! $post->note_description !!}</p>
+				</div>
+			</div>
+		</section>
+	@endif
     <!--//Special Section-->
     <!--Next Previous Section-->
     <section class="next-previous-section">
@@ -123,6 +136,7 @@
 
 @yield('scripts')
 <script src="{{ mix('/js/app.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/jquery-scrolltofixed-min.js')}}"></script>
 <script type="text/javascript">
     $(document).ready(function () {
         var getMax = function () {
@@ -169,6 +183,10 @@
                 setWidth();
             });
         }
+		$('.inner-tabs').scrollToFixed({
+            marginTop: $('.navbar-default').outerHeight(true),
+            limit: $('.copyrights').offset().top
+        });
     });
 </script>
 <!-- page script -->

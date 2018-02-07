@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Carbon\Carbon;
 use App\Traits\HasSlug;
+use App\Helpers\PostStats;
 use App\Filters\PostFilters;
 use App\Traits\Models\CarbonDates;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -160,5 +161,10 @@ class Post extends BaseModel
     public function getTopTenCountAttribute()
     {
         return $this->articles()->where('type', Article::TOP_TEN)->count();
+    }
+	
+	public function stats()
+    {
+        return new PostStats($this);
     }
 }

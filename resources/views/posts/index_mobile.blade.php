@@ -52,7 +52,7 @@
     <ul class="pm-list">
         @foreach($bachelorePosts as $key => $post)
             <li>
-                <a class="{{class_active_post($key)}}" href="{{$post->path()}}">
+                <a href="{{$post->path()}}">
                     <div class="media">
                         <div class="media-left"><span class="pm-list-count">{{$key += 1}}.</span></div>
                         <div class="media-body">{{$post->title}}</div>
