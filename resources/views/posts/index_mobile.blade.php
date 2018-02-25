@@ -24,6 +24,15 @@
 </progress>
 <!--Progress-->
 <!--Banner-->
+<!-- Side Nav -->
+@include('includes._nav_menu', compact(
+            'bachelorePosts',
+            'masterPosts',
+            'specializationPosts',
+            'placements',
+            'hoks'
+        ))
+        <!-- // Side Nav -->
 <section class="main-banner">
     <div class="banner-logo">
         <img src="{{ asset('images/mobile/logo.png') }}" alt="{{ config('app.name') }}"/>
@@ -43,7 +52,7 @@
 <!--BACHELOUR'S DEGREE-->
 <section class="common-section">
     <div class="container">
-        <h2>BACHELOUR'S DEGREE</h2>
+        <h2>BACHELOR'S DEGREE</h2>
 
         <p>Learn the basics of Product Management. Topics range from how to
             be a product manager, working with teams as a PM to creating
@@ -199,7 +208,8 @@
 @include('includes._copy_rights')
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="{{ asset('js/carousel.js') }}"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery-scrolltofixed-min.js"></script>
 <script>
     $(document).ready(function () {
         /* error message element hide on focus */
@@ -213,7 +223,6 @@
 
     });
     $(document).ready(function () {
-
         var getMax = function () {
             return $(document).height() - $(window).height();
         }
@@ -258,6 +267,17 @@
                 setWidth();
             });
         }
+        // Right menu
+        $('body').on({
+            click: function () {
+                $('#sideNav').css({'width': "100%"})
+            }
+        }, '#sideNavOpen');
+        $('body').on({
+            click: function () {
+                $('#sideNav').css({'width': 0})
+            }
+        }, '#sideNavClose');
     });
 </script>
 @include('includes._ga')

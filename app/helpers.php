@@ -139,3 +139,10 @@ if (!function_exists('is_production')) {
         return app()->environment() === 'production';
     }
 }
+
+if (!function_exists('cache_enabled')) {
+    function cache_enabled()
+    {
+        return config('cache.enabled');
+    }
+}

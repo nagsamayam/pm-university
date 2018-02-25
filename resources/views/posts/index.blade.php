@@ -39,6 +39,15 @@
     </div>
 </progress>
 <div id="app">
+    <!-- Side Nav -->
+    @include('includes._nav_menu', compact(
+            'bachelorePosts',
+            'masterPosts',
+            'specializationPosts',
+            'placements',
+            'hoks'
+        ))
+            <!-- // Side Nav -->
     <!--Header-->
     <!--Banner-->
     <section class="main-banner">
@@ -258,6 +267,19 @@
                 setWidth();
             });
         }
+        // Right menu
+        $('body').on({
+            click: function() {
+                $('#sideNav').css({ 'width': 360 });
+                $('html').css({ 'overflow-y': 'hidden' });
+            }
+        }, '#sideNavOpen');
+        $('body').on({
+            click: function() {
+                $('#sideNav').css({ 'width': 0 });
+                $('html').css({ 'overflow-y': 'auto' });
+            }
+        }, '#sideNavClose');
     });
 </script>
 <!-- GA script -->

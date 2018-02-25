@@ -7,21 +7,12 @@ use App\Models\Post;
 
 class HomeController extends Controller
 {
-    public function __invoke()
+    public function __invoke(Post $post)
     {
         $postsAttributes = Post::defaultAttributes();
-        $bachelorePosts = Post::published()
-            ->type(Post::BACHELORE)
-            ->recent()
-            ->get($postsAttributes);
-        $masterPosts = Post::published()
-            ->type(Post::MASTER)
-            ->recent()
-            ->get($postsAttributes);
-        $specializationPosts = Post::published()
-            ->type(Post::SPECIALIZATION)
-            ->recent()
-            ->get($postsAttributes);
+        $bachelorePosts = $post->getPosts(Post::BACHELORE);
+        $masterPosts = $post->getPosts(Post::MASTER);
+        $specializationPosts = $post->getPosts(Post::SPECIALIZATION);
         $placements = Post::published()
             ->type(Post::PLACEMENTS)
             ->get($postsAttributes);

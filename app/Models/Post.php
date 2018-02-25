@@ -167,4 +167,23 @@ class Post extends BaseModel
     {
         return new PostStats($this);
     }
+	
+	public function getPosts($type)
+    {
+        if (cache_enabled()) {
+            return Cache::remember('posts', 1, function () use ($type) {
+                return $this->getLatestPosts($type);
+            });
+        }
+
+        return $this->getLatestPosts($type);
+    }
+
+    public function getLatestPosts($type)
+    {
+        return self::published()
+            ->type($type)
+            ->recent()
+            ->get(self::defaultAttributes(['updated_at']));
+    }
 }

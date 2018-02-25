@@ -41,6 +41,7 @@
     </div>
 </progress>
 <div id="app">
+    @include('includes._nav_menu', compact('bachelorePosts', 'masterPosts', 'specializationPosts'))
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -92,43 +93,43 @@
     </tabs>
     <!--//Category Tabs-->
     <!--Special Section-->
-	<input type="hidden" value="{{ $post->id }}" id="id_post_id"/>
-	@if($post->note_title)
-		<section class="special-section">
-			<div class="container">
-				<div class="special-article" id="special-article">               
+    <input type="hidden" value="{{ $post->id }}" id="id_post_id"/>
+    @if($post->note_title)
+        <section class="special-section">
+            <div class="container">
+                <div class="special-article" id="special-article">
 
-					<h2>{{$post->note_title}}</h2>
+                    <h2>{{$post->note_title}}</h2>
 
-					<p>{!! $post->note_description !!}</p>
-				</div>
-			</div>
-		</section>
-	@endif
-    <!--//Special Section-->
-    <!--Next Previous Section-->
-    <section class="next-previous-section">
-        <div class="container">
-            @if($nextPost)
-                <div class="pull-left">
-                    <a href="{{ url($nextPost->slug)}}">
-                        <i class="material-icons">&#xE314;</i> {{ $nextPost->title }}</a>
+                    <p>{!! $post->note_description !!}</p>
                 </div>
-            @endif @if($previousPost)
-                <div class="pull-right">
-                    <a href="{{ url($previousPost->slug)}}">{{ $previousPost->title
+            </div>
+        </section>
+        @endif
+                <!--//Special Section-->
+        <!--Next Previous Section-->
+        <section class="next-previous-section">
+            <div class="container">
+                @if($nextPost)
+                    <div class="pull-left">
+                        <a href="{{ url($nextPost->slug)}}">
+                            <i class="material-icons">&#xE314;</i> {{ $nextPost->title }}</a>
+                    </div>
+                @endif @if($previousPost)
+                    <div class="pull-right">
+                        <a href="{{ url($previousPost->slug)}}">{{ $previousPost->title
 						}} <i class="material-icons">&#xE315;</i></a>
-                </div>
-            @endif
-        </div>
-    </section>
-    <!--//Next Previous Section-->
+                    </div>
+                @endif
+            </div>
+        </section>
+        <!--//Next Previous Section-->
 
-    <!--Footer-->
-    @include("includes._footer")
-            <!--//Footer-->
+        <!--Footer-->
+        @include("includes._footer")
+                <!--//Footer-->
 
-    @include('includes._copy_rights')
+        @include('includes._copy_rights')
 </div>
 </div>
 
@@ -136,6 +137,7 @@
 
 @yield('scripts')
 <script src="{{ mix('/js/app.js') }}"></script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
 <script type="text/javascript" src="{{ asset('js/jquery-scrolltofixed-min.js')}}"></script>
 <script type="text/javascript">
     $(document).ready(function () {
@@ -183,10 +185,23 @@
                 setWidth();
             });
         }
-		$('.inner-tabs').scrollToFixed({
+        $('.inner-tabs').scrollToFixed({
             marginTop: $('.navbar-default').outerHeight(true),
             limit: $('.copyrights').offset().top
         });
+        // Right menu
+        $('body').on({
+            click: function () {
+                $('#sideNav').css({'width': 360});
+                $('html').css({'overflow-y': 'hidden'});
+            }
+        }, '#sideNavOpen');
+        $('body').on({
+            click: function () {
+                $('#sideNav').css({'width': 0});
+                $('html').css({'overflow-y': 'auto'});
+            }
+        }, '#sideNavClose');
     });
 </script>
 <!-- page script -->
@@ -194,10 +209,6 @@
 <!-- GA script -->
 @include('includes._ga')
         <!-- //GA script -->
-
 @yield('after_scripts')
-
-        <!-- JavaScripts -->
-
 </body>
 </html>

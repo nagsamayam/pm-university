@@ -51,8 +51,14 @@
         </div>
     </nav>
     <!--//Header-->
-
-    <!--Inner Banner-->
+    @include('includes._nav_menu', compact(
+            'bachelorePosts',
+            'masterPosts',
+            'specializationPosts',
+            'placements',
+            'hoks'
+        ))
+            <!--Inner Banner-->
     <section class="inner-banner">
         <div class="caption">
             <h1><span>{{$post->title}}</span></h1>
@@ -95,55 +101,55 @@
     <!--//Articles-->
 
     <!--Special Section-->
-	<input type="hidden" value="{{ $post->id }}" id="id_post_id"/>
-	@if($post->note_title)
-		<section class="special-section">
-			<div class="container">
-				<div class="special-article" id="special-article">
+    <input type="hidden" value="{{ $post->id }}" id="id_post_id"/>
+    @if($post->note_title)
+        <section class="special-section">
+            <div class="container">
+                <div class="special-article" id="special-article">
 
-					<h2>{{$post->note_title}}</h2>
+                    <h2>{{$post->note_title}}</h2>
 
-					<p>{!! $post->note_description !!}</p>
-				</div>
-			</div>
-		</section>
-	@endif
-    <!--//Special Section-->
-
-    <!--Next Previous Section-->
-    <section class="next-previous-section">
-        <div class="container">
-            @if($nextPost)
-                <div class="pull-left">
-                    <a href="{{ url($nextPost->slug)}}"><i class="material-icons">&#xE314;</i>
-                        {{ $nextPost->title }} </a>
+                    <p>{!! $post->note_description !!}</p>
                 </div>
-            @endif @if($previousPost)
-                <div class="pull-right">
-                    <a href="{{ url($previousPost->slug)}}">{{ $previousPost->title
+            </div>
+        </section>
+        @endif
+                <!--//Special Section-->
+
+        <!--Next Previous Section-->
+        <section class="next-previous-section">
+            <div class="container">
+                @if($nextPost)
+                    <div class="pull-left">
+                        <a href="{{ url($nextPost->slug)}}"><i class="material-icons">&#xE314;</i>
+                            {{ $nextPost->title }} </a>
+                    </div>
+                @endif @if($previousPost)
+                    <div class="pull-right">
+                        <a href="{{ url($previousPost->slug)}}">{{ $previousPost->title
 						}} <i class="material-icons">&#xE315;</i>
-                    </a>
-                </div>
-            @endif
-        </div>
-    </section>
-    <!--//Next Previous Section-->
+                        </a>
+                    </div>
+                @endif
+            </div>
+        </section>
+        <!--//Next Previous Section-->
 
-    <!--Footer-->
-    @include("includes._footer")
-            <!--//Footer-->
+        <!--Footer-->
+        @include("includes._footer")
+                <!--//Footer-->
 
-    @include('includes._copy_rights')
+        @include('includes._copy_rights')
 </div>
 </div>
 
 @yield('before_scripts')
 
 @yield('scripts')
+<script src="{{ mix('/js/app.js') }}"></script>
 <script type="text/javascript" src="/js/jquery.min.js"></script>
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="{{ asset('js/jquery-scrolltofixed-min.js')}}"></script>
-<script src="{{ mix('/js/app.js') }}"></script>
 <!-- page script -->
 <script type="text/javascript">
     $(document).ready(function () {
@@ -191,10 +197,21 @@
                 setWidth();
             });
         }
-		$('.inner-tabs').scrollToFixed({
+        $('.inner-tabs').scrollToFixed({
             marginTop: $('.navbar-default').outerHeight(true),
             limit: $('.copyrights').offset().top
         });
+        // Right menu
+        $('body').on({
+            click: function () {
+                $('#sideNav').css({'width': "100%"})
+            }
+        }, '#sideNavOpen');
+        $('body').on({
+            click: function () {
+                $('#sideNav').css({'width': 0})
+            }
+        }, '#sideNavClose');
     });
 </script>
 <!-- GA script -->
