@@ -635,16 +635,16 @@
         },
         {
             "name": "jaybizzle/crawler-detect",
-            "version": "v1.2.58",
+            "version": "v1.2.59",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JayBizzle/Crawler-Detect.git",
-                "reference": "7d5346fefb34033f7c08019dc57ceaa5d7a68dc0"
+                "reference": "8b371ed0fc16a3b13ebd5f00fd4a3ffb5420262e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/7d5346fefb34033f7c08019dc57ceaa5d7a68dc0",
-                "reference": "7d5346fefb34033f7c08019dc57ceaa5d7a68dc0",
+                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/8b371ed0fc16a3b13ebd5f00fd4a3ffb5420262e",
+                "reference": "8b371ed0fc16a3b13ebd5f00fd4a3ffb5420262e",
                 "shasum": ""
             },
             "require": {
@@ -680,7 +680,7 @@
                 "crawlerdetect",
                 "php crawler detect"
             ],
-            "time": "2018-02-09T16:24:01+00:00"
+            "time": "2018-02-22T19:04:46+00:00"
         },
         {
             "name": "jenssegers/agent",
@@ -750,16 +750,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.6.4",
+            "version": "v5.6.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "ca5ce9e559e1a8f6455f0fbc42638e6e066f73de"
+                "reference": "2e68209991e15aca1382ef9a3443d13f2e0d8755"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/ca5ce9e559e1a8f6455f0fbc42638e6e066f73de",
-                "reference": "ca5ce9e559e1a8f6455f0fbc42638e6e066f73de",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/2e68209991e15aca1382ef9a3443d13f2e0d8755",
+                "reference": "2e68209991e15aca1382ef9a3443d13f2e0d8755",
                 "shasum": ""
             },
             "require": {
@@ -881,7 +881,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-02-21T14:41:25+00:00"
+            "time": "2018-02-22T19:21:38+00:00"
         },
         {
             "name": "laravel/tinker",
